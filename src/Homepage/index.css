@@ -1,0 +1,25 @@
+.email-text {
+	color: #000;
+	text-decoration: none;
+}
+
+.logo-linkedin-github {
+	color: #000;
+}
+
+.profile-photo {
+	vertical-align: middle;
+	margin: auto;
+}
+
+.see-my-works-button,
+.contact-me-button {
+	background-color: #8095e2;
+	border-color: #8095e2;
+}
+
+.my-resume-button {
+	background-color: transparent;
+	border-color: #8095e2;
+	color: #8095e2;
+}
