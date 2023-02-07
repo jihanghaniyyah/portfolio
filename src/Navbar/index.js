@@ -9,14 +9,14 @@ export default function NavigationBar() {
 		<Navbar collapseOnSelect expand='lg' bg='light'>
 			<Container>
 				<Navbar.Brand href='/'>
-					<img src='logo.svg' width={40} height={40} alt='Navigation Bar Logo' />
+					<img src='../../logo.svg' width={40} height={40} alt='Navigation Bar Logo' />
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>
 					<Nav className='me-auto'></Nav>
 					<Nav style={{ fontWeight: '600' }}>
 						<Nav.Link href='/works'>
-							<RiFile2Fill /> Works
+							<RiFile2Fill /> Projects
 						</Nav.Link>
 						<Nav.Link eventKey={2} href='/resume'>
 							<RiUserFill /> Resume
