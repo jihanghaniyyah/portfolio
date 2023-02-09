@@ -54,6 +54,8 @@ class Homepage extends Component {
 										className='mt-3 mb-5'
 										style={seeMyWorkscontactMeButton}
 										href='https://api.whatsapp.com/send/?phone=6281230210480&text&type=phone_number&app_absent=0'
+										rel='noopener noreferrer'
+										target='_blank'
 									>
 										Contact Me
 									</Button>
@@ -84,7 +86,7 @@ class Homepage extends Component {
 						<p>
 							Build client-side applications with modern features like SPA and
 							maintain semantic coding style among other best practices for SEO
-							optimisation. Use modern tech such as React.js, TailwindCSS, and GSAP.
+							optimisation. Use modern tech such as React.js, Laravel, and HTML CSS.
 						</p>
 						<p>
 							<b>NATIVE APPS</b>
@@ -108,15 +110,25 @@ class Homepage extends Component {
 						<a
 							style={emailText}
 							href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jghaniyyah@gmail.com'
+							rel='noopener noreferrer'
+							target='_blank'
 						>
 							jghaniyyah@gmail.com
 						</a>
 						<p className='mt-4'>Surabaya, Indonesia</p>
 						<h2 className='d-flex justify-content-center' style={logoLinkedinGithub}>
-							<a href='https://www.linkedin.com/in/jihanghaniyyah/'>
+							<a
+								href='https://www.linkedin.com/in/jihanghaniyyah/'
+								rel='noopener noreferrer'
+								target='_blank'
+							>
 								<IoLogoLinkedin style={{ color: '#000' }} />
 							</a>
-							<a href='https://github.com/jihanghaniyyah'>
+							<a
+								href='https://github.com/jihanghaniyyah'
+								rel='noopener noreferrer'
+								target='_blank'
+							>
 								<AiFillGithub style={{ color: '#000' }} />
 							</a>
 						</h2>

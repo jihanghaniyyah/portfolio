@@ -18,6 +18,11 @@ class Works extends Component {
 			borderColor: '#8095e2',
 			color: '#8095e2',
 		};
+		const backHomepage = {
+			color: '#8095e2',
+			fontSize: '14px',
+			textDecoration: 'none',
+		};
 		return (
 			<div className='works'>
 				<NavigationBar />
@@ -30,7 +35,7 @@ class Works extends Component {
 								<Card.Img variant='top' src={sipengmas} />
 								<Card.Body>
 									<Card.Title>SIPENGMAS</Card.Title>
-									<Card.Text>ReactJS ● Bootstrap ● PHP Native ● Oracle</Card.Text>
+									<Card.Text>ReactJS · Bootstrap · PHP Native · Oracle</Card.Text>
 									<Button style={buttonDetail} href='/works/sipengmas'>
 										See Detail
 									</Button>
@@ -42,7 +47,7 @@ class Works extends Component {
 								<Card.Img variant='top' src={siukm} />
 								<Card.Body>
 									<Card.Title>SI-UKM</Card.Title>
-									<Card.Text>ReactJS ● Laravel ● Bootstrap ● MySQL</Card.Text>
+									<Card.Text>ReactJS · Laravel · Bootstrap · MySQL</Card.Text>
 									<Button style={buttonDetail} href='/works/siukm'>
 										See Detail
 									</Button>
@@ -54,7 +59,7 @@ class Works extends Component {
 								<Card.Img variant='top' src={pilkahimapsi} />
 								<Card.Body>
 									<Card.Title>Pilkahimapsi 2021</Card.Title>
-									<Card.Text>Laravel ● Bootstrap ● MySQL</Card.Text>
+									<Card.Text>Laravel · Bootstrap · MySQL</Card.Text>
 									<Button style={buttonDetail} href='/works/pilkahimapsi'>
 										See Detail
 									</Button>
@@ -66,7 +71,7 @@ class Works extends Component {
 								<Card.Img variant='top' src={visitind} />
 								<Card.Body>
 									<Card.Title>VisitInd</Card.Title>
-									<Card.Text>ReactJS ● Bootstrap</Card.Text>
+									<Card.Text>ReactJS · Bootstrap</Card.Text>
 									<Button style={buttonDetail} href='/works/visitind'>
 										See Detail
 									</Button>
@@ -79,12 +84,12 @@ class Works extends Component {
 					<h3 className='mt-5'>Mobile Applications</h3>
 					<hr />
 					<Row>
-						<Col className='mt-4' xs={6} lg={2}>
+						<Col className='mt-4 mb-5' xs={6} lg={2}>
 							<Card style={cardStyle}>
 								<Card.Img variant='top' src={sipengmasmobile} />
 								<Card.Body>
 									<Card.Title>SIPENGMAS</Card.Title>
-									<Card.Text>Flutter ● PHP Native ● Oracle</Card.Text>
+									<Card.Text>Flutter · PHP Native · Oracle</Card.Text>
 									<Button style={buttonDetail} href='/works/sipengmasmobile'>
 										See Detail
 									</Button>
@@ -92,6 +97,9 @@ class Works extends Component {
 							</Card>
 						</Col>
 					</Row>
+					<a href='/' style={backHomepage}>
+						Back to homepage
+					</a>
 				</Container>
 				<Container>
 					<Footer />

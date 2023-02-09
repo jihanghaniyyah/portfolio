@@ -35,7 +35,7 @@ class Visitind extends Component {
 					<ul>
 						<li>
 							VisitInd stands for Visit Indonesia, is a start-up tourism company
-							established since 2021
+							established in 2021
 						</li>
 						<li>
 							With the team, we develop 3 websites; a domain website and 2 sub-domain

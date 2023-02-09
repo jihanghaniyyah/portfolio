@@ -34,7 +34,7 @@ class Sipengmas extends Component {
 						<li>
 							SIPENGMAS stands for Sistem Informasi Pengabdian Masyarakat. This
 							website was developed for Politeknik Elektronika Negeri Surabaya (PENS)
-							Campus to help monitoring community service data
+							Campus to help internal to monitoring community service data
 						</li>
 						<li>SIPENGMAS was built in 2022 to fulfilling my Final Project</li>
 						<li>
