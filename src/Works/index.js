@@ -10,8 +10,8 @@ import visitind from '../assets/visitind/1.jpeg';
 class Works extends Component {
 	render() {
 		const cardStyle = {
-			textAlign: 'center',
 			borderColor: 'transparent',
+			textAlign: 'center',
 		};
 		const buttonDetail = {
 			backgroundColor: 'transparent',
@@ -23,6 +23,15 @@ class Works extends Component {
 			fontSize: '14px',
 			textDecoration: 'none',
 		};
+		const imageStyle = {
+			height: '300px',
+			objectFit: 'cover',
+			width: '100%',
+		};
+		const textStyle = {
+			color: '#000',
+			textDecoration: 'none',
+		};
 		return (
 			<div className='works'>
 				<NavigationBar />
@@ -31,52 +40,58 @@ class Works extends Component {
 					<hr />
 					<Row>
 						<Col className='mt-4' lg={6}>
-							<Card style={cardStyle}>
-								<Card.Img variant='top' src={sipengmas} />
-								<Card.Body>
-									<Card.Title>SIPENGMAS</Card.Title>
-									<Card.Text>ReactJS · Bootstrap · PHP Native · Oracle</Card.Text>
-									<Button style={buttonDetail} href='/works/sipengmas'>
-										See Detail
-									</Button>
-								</Card.Body>
-							</Card>
+							<a href='/works/sipengmas' style={textStyle}>
+								<Card style={cardStyle}>
+									<Card.Img style={imageStyle} src={sipengmas} variant='top' />
+									<Card.Body>
+										<Card.Title>SIPENGMAS</Card.Title>
+										<Card.Text style={textStyle}>
+											ReactJS · Bootstrap · PHP Native · Oracle
+										</Card.Text>
+										<Button style={buttonDetail}>See Detail</Button>
+									</Card.Body>
+								</Card>
+							</a>
 						</Col>
 						<Col className='mt-4' lg={6}>
-							<Card style={cardStyle}>
-								<Card.Img variant='top' src={siukm} />
-								<Card.Body>
-									<Card.Title>SI-UKM</Card.Title>
-									<Card.Text>ReactJS · Laravel · Bootstrap · MySQL</Card.Text>
-									<Button style={buttonDetail} href='/works/siukm'>
-										See Detail
-									</Button>
-								</Card.Body>
-							</Card>
+							<a href='/works/siukm' style={textStyle}>
+								<Card style={cardStyle}>
+									<Card.Img style={imageStyle} src={siukm} variant='top' />
+									<Card.Body>
+										<Card.Title>SI-UKM</Card.Title>
+										<Card.Text>ReactJS · Laravel · Bootstrap · MySQL</Card.Text>
+										<Button style={buttonDetail}>See Detail</Button>
+									</Card.Body>
+								</Card>
+							</a>
 						</Col>
 						<Col className='mt-4' lg={6}>
-							<Card style={cardStyle}>
-								<Card.Img variant='top' src={pilkahimapsi} />
-								<Card.Body>
-									<Card.Title>Pilkahimapsi 2021</Card.Title>
-									<Card.Text>Laravel · Bootstrap · MySQL</Card.Text>
-									<Button style={buttonDetail} href='/works/pilkahimapsi'>
-										See Detail
-									</Button>
-								</Card.Body>
-							</Card>
+							<a href='/works/pilkahimapsi' style={textStyle}>
+								<Card style={cardStyle}>
+									<Card.Img style={imageStyle} src={pilkahimapsi} variant='top' />
+									<Card.Body>
+										<Card.Title>Pilkahimapsi 2021</Card.Title>
+										<Card.Text>Laravel · Bootstrap · MySQL</Card.Text>
+										<Button style={buttonDetail} href='/works/pilkahimapsi'>
+											See Detail
+										</Button>
+									</Card.Body>
+								</Card>
+							</a>
 						</Col>
 						<Col className='mt-4' lg={6}>
-							<Card style={cardStyle}>
-								<Card.Img variant='top' src={visitind} />
-								<Card.Body>
-									<Card.Title>VisitInd</Card.Title>
-									<Card.Text>ReactJS · Bootstrap</Card.Text>
-									<Button style={buttonDetail} href='/works/visitind'>
-										See Detail
-									</Button>
-								</Card.Body>
-							</Card>
+							<a href='/works/visitind' style={textStyle}>
+								<Card style={cardStyle}>
+									<Card.Img style={imageStyle} src={visitind} variant='top' />
+									<Card.Body>
+										<Card.Title>VisitInd</Card.Title>
+										<Card.Text>ReactJS · Bootstrap</Card.Text>
+										<Button style={buttonDetail} href='/works/visitind'>
+											See Detail
+										</Button>
+									</Card.Body>
+								</Card>
+							</a>
 						</Col>
 					</Row>
 				</Container>
@@ -85,16 +100,18 @@ class Works extends Component {
 					<hr />
 					<Row>
 						<Col className='mt-4 mb-5' xs={6} lg={2}>
-							<Card style={cardStyle}>
-								<Card.Img variant='top' src={sipengmasmobile} />
-								<Card.Body>
-									<Card.Title>SIPENGMAS</Card.Title>
-									<Card.Text>Flutter · PHP Native · Oracle</Card.Text>
-									<Button style={buttonDetail} href='/works/sipengmasmobile'>
-										See Detail
-									</Button>
-								</Card.Body>
-							</Card>
+							<a href='/works/sipengmasmobile' style={textStyle}>
+								<Card style={cardStyle}>
+									<Card.Img variant='top' src={sipengmasmobile} />
+									<Card.Body>
+										<Card.Title>SIPENGMAS</Card.Title>
+										<Card.Text>Flutter · PHP Native · Oracle</Card.Text>
+										<Button style={buttonDetail} href='/works/sipengmasmobile'>
+											See Detail
+										</Button>
+									</Card.Body>
+								</Card>
+							</a>
 						</Col>
 					</Row>
 					<a href='/' style={backHomepage}>
