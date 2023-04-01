@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Button, Image, Row, Col } from 'react-bootstrap';
 import NavigationBar from '../Navbar';
-import ProfilePhoto from '../assets/eunchae.png';
+import ProfilePhoto from '../assets/profile.png';
 import { IoLogoLinkedin } from 'react-icons/io';
 import { AiFillGithub } from 'react-icons/ai';
 import Footer from '../Footer';
